@@ -19,21 +19,5 @@
     "eslint-plugin-react": "^7.28.0",
     "vite": "^2.8.0",
     "vite-imagetools": "^4.0.3"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JorneSaenen/react-vite-eslint"
-  },
-  "keywords": [
-    "eslint",
-    "vite",
-    "react",
-    "starterkit"
-  ],
-  "author": "Jorne Saenen",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/JorneSaenen/react-vite-eslint/issues"
-  },
-  "homepage": "https://github.com/JorneSaenen/react-vite-eslint#readme"
+  }
 }
