@@ -4,4 +4,4 @@
 
 ### Run command
 
-`npm init vite-react-eslint`
+`npm init vite-react-eslint@latest`
