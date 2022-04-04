@@ -9,8 +9,10 @@ function App() {
 
   return (
     <div className='App'>
-      <img src={logo} alt='logo' />
-      <img src={Image} alt='testing imagetools' />
+      <div className='logos'>
+        <img src={logo} alt='logo' className='App-logo' />
+        <img src={Image} alt='testing imagetools' className='App-logo' />
+      </div>
 
       <Title text={count} />
       <button onClick={() => setCount(count + 1)}>+</button>
