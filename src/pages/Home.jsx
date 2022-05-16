@@ -1,10 +1,11 @@
+import '../App.css';
 import { useState } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Title from './components/Title';
-import Image from './vitejs.jpg?w=600&webp';
+import logo from '../images/logo.svg';
+import Title from '../components/Title';
+import Image from '../images/vitejs.jpg?w=600&webp';
+import { Link } from 'react-router-dom';
 
-function App() {
+const Home = () => {
   const [count, setCount] = useState(0);
 
   return (
@@ -17,8 +18,12 @@ function App() {
       <Title text={count} />
       <button onClick={() => setCount(count + 1)}>+</button>
       <button onClick={() => setCount(count - 1)}>-</button>
+      <div className='links'>
+        <Link to={'/'}>Home</Link>
+        <Link to={'/page2'}>Page 2</Link>
+      </div>
     </div>
   );
-}
+};
 
-export default App;
+export default Home;
